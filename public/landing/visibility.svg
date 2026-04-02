@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 360 120" fill="none" aria-hidden="true">
+  <rect x="40" y="72" width="72" height="22" rx="11" fill="#ffffff" stroke="#e2e8f0" stroke-width="1"/>
+  <text x="76" y="87" text-anchor="middle" fill="#475569" font-size="10" font-family="system-ui, sans-serif">Product</text>
+  <rect x="124" y="72" width="96" height="22" rx="11" fill="#ffffff" stroke="#e2e8f0" stroke-width="1"/>
+  <text x="172" y="87" text-anchor="middle" fill="#475569" font-size="10" font-family="system-ui, sans-serif">Engineering</text>
+  <rect x="232" y="72" width="56" height="22" rx="11" fill="#ffffff" stroke="#e2e8f0" stroke-width="1"/>
+  <text x="260" y="87" text-anchor="middle" fill="#475569" font-size="10" font-family="system-ui, sans-serif">Ops</text>
+  <rect x="40" y="40" width="280" height="8" rx="2" fill="#f1f5f9"/>
+  <rect x="40" y="54" width="200" height="8" rx="2" fill="#f1f5f9"/>
+</svg>

@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 360 140" fill="none" aria-hidden="true">
+  <defs>
+    <linearGradient id="trailStroke" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#94a3b8" stop-opacity="0.35"/>
+      <stop offset="50%" stop-color="#38bdf8" stop-opacity="0.85"/>
+      <stop offset="100%" stop-color="#a78bfa" stop-opacity="0.75"/>
+    </linearGradient>
+  </defs>
+  <path
+    d="M24 88 C 70 32, 120 32, 168 72 S 260 120, 336 48"
+    stroke="url(#trailStroke)"
+    stroke-width="2.5"
+    stroke-linecap="round"
+    fill="none"
+  />
+  <circle cx="32" cy="84" r="9" fill="#38bdf8" opacity="0.95"/>
+  <circle cx="120" cy="44" r="8" fill="#a78bfa" opacity="0.95"/>
+  <circle cx="200" cy="84" r="8" fill="#fbbf24" opacity="0.95"/>
+  <circle cx="288" cy="56" r="9" fill="#34d399" opacity="0.95"/>
+  <circle cx="328" cy="40" r="6" fill="#e2e8f0"/>
+</svg>
