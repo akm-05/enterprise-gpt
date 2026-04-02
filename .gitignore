@@ -2,6 +2,9 @@
 node_modules/
 .pnp
 .pnp.js
+.next
+.env
+.DS_Store
 
 # Next.js / build
 .next/
