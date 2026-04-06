@@ -95,7 +95,7 @@ const Card: React.FC<CardProps> = ({
 
         {/* CARD */}
         <div
-          className="overflow-hidden rounded-3xl border border-gray-200 bg-white shadow-sm"
+          className="overflow-hidden rounded-3xl border border-gray-200 bg-[#ffffff] shadow-sm"
           style={{
             width: "825px",
             height: "616.52px",
@@ -159,7 +159,7 @@ export const StackedCards: React.FC = () => {
   }, []);
 
   return (
-    <section className="w-full bg-transparent">
+    <section className="w-full bg-[#ffffff]">
       <div className="mx-auto w-full max-w-6xl">
         {cardData.map((card, index) => (
           <Card

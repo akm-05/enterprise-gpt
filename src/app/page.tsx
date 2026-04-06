@@ -2,6 +2,7 @@ import CarouselIntro from "@/components/CarouselIntro";
 import FaqSection from "@/components/FaqSection";
 import Footer from "@/components/Footer";
 import FeatureGrid from "@/components/FeatureGrid";
+import MCPSection from "@/components/MCPSection";
 import { FeaturesIntro } from "@/components/FeaturesIntro";
 import { Hero } from "@/components/Hero";
 import { Navbar } from "@/components/Navbar";
@@ -19,6 +20,7 @@ export default function Home() {
         <div className="w-full bg-[#f7f7f7]">
           <FeaturesIntro />
           <FeatureGrid />
+          <MCPSection />
           <CarouselIntro />
           <StackedCards />
           <PersonasSection />

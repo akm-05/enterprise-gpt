@@ -43,19 +43,32 @@ export function Hero() {
             accessible={false}
             className="block"
           >
-            Work, Without the Friction.
+            A workspace that
           </TextAnimate>
-          <TextAnimate
-            as="span"
-            animation="slideLeft"
-            by="character"
-            once
-            accessible={false}
-            delay={0.45}
-            className="mt-1 block whitespace-nowrap sm:mt-2"
-          >
-            Designed to Flow.
-          </TextAnimate>
+          <span className="mt-1 block sm:mt-2">
+            <TextAnimate
+              as="span"
+              animation="slideLeft"
+              by="character"
+              once
+              accessible={false}
+              delay={0.45}
+              className="inline"
+            >
+              {`thinks your `}
+            </TextAnimate>
+            <TextAnimate
+              as="span"
+              animation="slideLeft"
+              by="character"
+              once
+              accessible={false}
+              delay={0.92}
+              className="inline italic"
+            >
+              enterprise
+            </TextAnimate>
+          </span>
         </h1>
 
         <TextAnimate
@@ -66,7 +79,8 @@ export function Hero() {
           delay={1}
           className="mt-6 max-w-lg text-base leading-relaxed text-white/80 sm:mt-8 sm:max-w-xl sm:text-lg"
         >
-          Enterprise-grade AI that fits how your team already works—secure, fast, and quietly powerful.
+          Multi-agent workflows. Semantic RAG. 100+ integrations via MCP.
+          Fully auditable. Deployable on-prem or private cloud.
         </TextAnimate>
 
         <HeroCtas />

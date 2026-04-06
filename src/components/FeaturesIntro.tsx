@@ -61,23 +61,23 @@ const footerVariants = {
 
 const CARDS = [
   {
-    title: "AI-Powered Task Summaries",
+    title: "Automated Knowledge Processing",
     description:
-      "Instantly summarize client requests, emails, and documents into actionable insights.",
+      "Continuously processes emails, documents, and inputs into structured, actionable intelligence across your organization.",
     gradient:
       "bg-gradient-to-br from-sky-400/90 via-blue-500/85 to-indigo-700/90",
   },
   {
-    title: "Smart Workflow Suggestions",
+    title: "Workflow Intelligence Engine",
     description:
-      "Get intelligent recommendations on what to focus on next based on your work context.",
+      "Understands context across teams and systems to recommend, trigger, and optimize next steps automatically.",
     gradient:
       "bg-gradient-to-br from-violet-400/90 via-purple-500/80 to-fuchsia-700/85",
   },
   {
-    title: "Context-Aware Knowledge",
+    title: "Unified System of Record",
     description:
-      "Enterprise GPT understands your data, conversations, and workflows in one unified system.",
+      "Centralizes conversations, files, and workflows into one connected layer—fully searchable, traceable, and auditable.",
     gradient:
       "bg-gradient-to-br from-amber-200/90 via-violet-300/80 to-purple-600/75",
   },
@@ -86,7 +86,7 @@ const CARDS = [
 function FeaturesIntroInner() {
   return (
     <section
-      className="w-full bg-[#f7f7f7] py-24 sm:py-28"
+      className="w-full bg-[#ffffff] py-24 sm:py-28"
       aria-labelledby="features-intro-heading"
     >
       <div className="mx-auto max-w-6xl px-6 sm:px-8">
@@ -100,14 +100,20 @@ function FeaturesIntroInner() {
           <p className="font-mono text-[11px] font-medium uppercase tracking-[0.22em] text-sky-700/80 sm:text-xs">
             Everything your work needs.
           </p>
-          <p
+          <div
             id="features-intro-heading"
-            className="font-serif mt-6 text-lg leading-[1.65] text-gray-600 sm:text-xl md:text-2xl md:leading-relaxed"
+            className="mx-auto mt-6 max-w-3xl space-y-5 text-center font-serif text-lg leading-[1.65] text-gray-600 sm:text-xl md:text-2xl md:leading-relaxed"
           >
-            Work today is scattered across too many tools and tabs. Managing
-            projects, emails, documents, and conversations shouldn&apos;t require
-            switching between dozens of apps.
-          </p>
+            <p>
+              Enterprise work doesn&apos;t live in one tool. It spans systems,
+              teams, and data silos.
+            </p>
+            <p>
+              Enterprise GPT brings everything into a single, auditable
+              workspace—where agents, workflows, and knowledge operate as one
+              system.
+            </p>
+          </div>
         </motion.div>
 
         <motion.div
@@ -125,7 +131,7 @@ function FeaturesIntroInner() {
                 variants={cardVariants}
                 className={clsx(
                   "will-change-[transform,opacity]",
-                  "relative flex w-full flex-col overflow-hidden rounded-xl bg-white shadow-[0_22px_60px_-18px_rgba(15,23,42,0.14)] ring-1 ring-black/[0.05]",
+                  "relative flex w-full flex-col overflow-hidden rounded-xl bg-[#f7f7f7] shadow-[0_22px_60px_-18px_rgba(15,23,42,0.14)] ring-1 ring-black/[0.05]",
                   "md:max-w-[min(100%,22rem)] md:flex-1",
                   index === 0 && "md:z-10",
                   index === 1 && "md:z-20 md:-mx-8",
@@ -161,9 +167,7 @@ function FeaturesIntroInner() {
           viewport={viewport}
           variants={footerVariants}
         >
-          Enterprise GPT brings everything together into one powerful workspace,
-          helping teams stay organized, collaborate effortlessly, and move work
-          forward faster.
+         Enterprise GPT unifies workflows, decisions, and data into a single system—so teams operate faster, with full context and control.
         </motion.p>
       </div>
     </section>

@@ -88,15 +88,15 @@ const ROWS: GridCell[][] = [
     {
       kind: "card",
       title: "Unified Workspace",
-      description: "Manage projects, chats, and files in one place.",
+      description: "A single environment where projects, conversations, and files stay connected and continuously updated.",
       size: "large",
       visual: { type: "img", src: "/landing/workspace.svg", alt: "" },
     },
     {
       kind: "card",
-      title: "AI Agents",
+      title: "Autonomous Agents",
       description:
-        "Automate tasks, summarize discussions, and get instant answers across your workspace.",
+        "Agents that execute tasks, reason across context, and operate continuously across your systems.",
       size: "small",
       visual: {
         type: "img",
@@ -108,7 +108,7 @@ const ROWS: GridCell[][] = [
     {
       kind: "card",
       title: "Smart Inbox",
-      description: "All updates and emails in one focused view.",
+      description: "Centralizes emails, updates, and signals into one prioritized, context-aware stream.",
       size: "medium",
       visual: { type: "img", src: "/landing/inbox.svg", alt: "" },
     },
@@ -117,7 +117,7 @@ const ROWS: GridCell[][] = [
     {
       kind: "card",
       title: "Workflow Automation",
-      description: "Trigger actions without manual effort.",
+      description: "Define, trigger, and automate multi-step workflows across tools without manual coordination.",
       size: "large",
       visual: { type: "img", src: "/landing/automation.svg", alt: "" },
     },
@@ -125,7 +125,7 @@ const ROWS: GridCell[][] = [
     {
       kind: "card",
       title: "Knowledge Engine",
-      description: "Understand documents, images, and data.",
+      description: "Indexes and understands documents, conversations, and data—making everything instantly retrievable and usable.",
       size: "medium",
       visual: { type: "img", src: "/landing/knowledge.svg", alt: "" },
     },
@@ -134,22 +134,22 @@ const ROWS: GridCell[][] = [
     {
       kind: "card",
       title: "Meetings & Voice",
-      description: "Capture, transcribe, and search every conversation.",
+      description: "Captures, transcribes, and extracts insights from meetings and voice interactions automatically.",
       size: "large",
       visual: { type: "img", src: "/landing/meetings.svg", alt: "" },
     },
     {
       kind: "card",
       title: "Real-time Collaboration",
-      description: "Work with your team seamlessly.",
+      description: "Teams work in shared context with live updates, aligned decisions, and no information gaps.",
       size: "medium",
       visual: { type: "img", src: "/landing/collab.svg", alt: "" },
     },
     {
       kind: "card",
-      title: "Total Visibility",
+      title: "Full-System Visibility",
       description:
-        "Dashboards, tags, and audit trails across your workspace.",
+        "Track actions, decisions, and workflows with complete transparency and auditability.",
       size: "small",
       visual: { type: "img", src: "/landing/visibility.svg", alt: "" },
     },
@@ -215,7 +215,7 @@ export default function FeatureGrid() {
               variants={headingVariants}
               transition={{ duration: 0.6, ease: "easeOut" }}
             >
-              Why open 100 tabs to get work done?
+              Your Entire Enterprise Workflow. One System!
             </motion.h2>
           </div>
           <motion.p
@@ -223,8 +223,8 @@ export default function FeatureGrid() {
             variants={subheadingVariants}
             transition={{ duration: 0.6, ease: "easeOut" }}
           >
-            Emails in one place. Chats in another. Files somewhere else.
-            Enterprise GPT connects everything so your work finally flows.
+           Enterprise work is fragmented across tools, teams, and data systems.  
+           Enterprise GPT unifies everything into a single layer—where agents, workflows, and knowledge operate together.
           </motion.p>
         </motion.div>
 

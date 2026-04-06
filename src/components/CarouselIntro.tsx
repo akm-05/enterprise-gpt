@@ -4,7 +4,7 @@ import { motion } from "framer-motion";
 
 export default function CarouselIntro() {
   return (
-    <section className="bg-transparent py-32">
+    <section className="bg-[#ffffff] py-32">
       <motion.div
         initial={{ opacity: 0, y: 40 }}
         whileInView={{ opacity: 1, y: 0 }}

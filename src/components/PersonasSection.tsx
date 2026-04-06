@@ -35,7 +35,7 @@ const personas = [
 
 export default function PersonasSection() {
   return (
-    <section className="bg-[#f7f7f7]">
+    <section className="bg-[#ffffff]">
       <div className="mx-auto max-w-7xl px-6 py-32">
         <motion.div
           initial={{ opacity: 0, y: 18 }}
@@ -65,7 +65,7 @@ export default function PersonasSection() {
                 delay: index * 0.1,
                 ease: [0.22, 1, 0.36, 1],
               }}
-              className="bg-[#efefef] flex min-h-[340px] flex-col rounded-3xl p-6"
+              className="flex min-h-[340px] flex-col rounded-3xl bg-[#f7f7f7] p-6"
             >
               <div>
                 <div className="h-[120px] overflow-hidden rounded-xl">

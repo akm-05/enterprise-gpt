@@ -57,7 +57,7 @@ export default function FaqSection() {
 
   return (
     <section
-      className="bg-[#f7f7f7] px-6 py-20 md:py-28"
+      className="bg-[#ffffff] px-6 py-20 md:py-28"
       aria-labelledby="faq-heading"
     >
       <div className="mx-auto max-w-7xl">
@@ -80,14 +80,14 @@ export default function FaqSection() {
             return (
               <div
                 key={item.question}
-                className="overflow-hidden rounded-[1.75rem] border border-white/50 bg-slate-100/35 shadow-[0_1px_0_rgba(255,255,255,0.6)_inset,0_8px_32px_rgba(15,23,42,0.06)] backdrop-blur-xl"
+                className="overflow-hidden rounded-[1.75rem] border border-gray-200/70 bg-[#f7f7f7] shadow-[0_1px_2px_rgba(15,23,42,0.05)]"
               >
                 <button
                   type="button"
                   onClick={() =>
                     setOpenIndex(isOpen ? null : index)
                   }
-                  className="flex w-full items-start justify-between gap-4 px-5 py-4 text-left transition-colors hover:bg-white/20 md:px-6 md:py-5"
+                  className="flex w-full items-start justify-between gap-4 px-5 py-4 text-left transition-colors hover:bg-[#ededed] md:px-6 md:py-5"
                   aria-expanded={isOpen}
                 >
                   <span className="text-[15px] font-medium leading-snug text-[#394050] md:text-base">
@@ -117,7 +117,7 @@ export default function FaqSection() {
                       }}
                       className="overflow-hidden"
                     >
-                      <div className="border-t border-white/30 px-5 pb-5 pt-0 md:px-6 md:pb-6">
+                      <div className="border-t border-gray-200/60 px-5 pb-5 pt-0 md:px-6 md:pb-6">
                         <p className="pt-4 text-sm leading-relaxed text-gray-600 md:text-[15px]">
                           {item.answer}
                         </p>
