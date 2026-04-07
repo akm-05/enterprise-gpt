@@ -8,6 +8,8 @@ import { Hero } from "@/components/Hero";
 import { Navbar } from "@/components/Navbar";
 import { StackedCards } from "@/components/ui/glass-cards";
 import PersonasSection from "@/components/PersonasSection";
+import SecuritySection from "@/components/SecuritySection";
+import WhyChooseSection from "@/components/WhyChooseSection";
 
 export default function Home() {
   return (
@@ -23,6 +25,8 @@ export default function Home() {
           <MCPSection />
           <CarouselIntro />
           <StackedCards />
+          <SecuritySection />
+          <WhyChooseSection />
           <PersonasSection />
           <FaqSection />
           <Footer />

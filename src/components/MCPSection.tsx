@@ -75,8 +75,8 @@ export default function MCPSection() {
             variants={headerVariants}
             className="max-w-md text-left text-base leading-relaxed text-gray-500 lg:max-w-sm lg:pt-1 lg:text-right"
           >
-            Keep workflows, tool outputs, and agent decisions together. One
-            enterprise brain.
+            Keep Workflows, Tool Outputs, <br></br>And Agent Decisions Together.<br></br> One
+            Enterprise Brain.
           </motion.p>
         </motion.div>
 
